@@ -11,7 +11,7 @@ const Footer = ({ theme, setTheme }) => {
     <motion.div
       initial={{opacity:0, y:20}}
          whileInView={{opacity:1, y:0}}
-         transition={{duration:0.5, delay:0.7}}
+         transition={{duration:0.5, delay:0.3}}
          viewport={{once:true}}
     
     className="bg-slate-50 dark:bg-gray-900 pt-10 mt-40 px-4 sm:px-10 lg:px-24 xl:px-40">
@@ -19,7 +19,7 @@ const Footer = ({ theme, setTheme }) => {
       
        initial={{opacity:0, y:20}}
          whileInView={{opacity:1, y:0}}
-         transition={{duration:0.5, delay:0.7}}
+         transition={{duration:0.5, delay:0.4}}
          viewport={{once:true}}
     
       className="flex justify-between max-lg:flex-col gap-10">
@@ -44,7 +44,7 @@ const Footer = ({ theme, setTheme }) => {
       <motion.div 
        initial={{opacity:0, y:20}}
          whileInView={{opacity:1, y:0}}
-         transition={{duration:0.5, delay:0.7}}
+         transition={{duration:0.5, delay:0.4}}
          viewport={{once:true}}
     
       className="text-gray-600 dark:text-gray-400">
@@ -70,7 +70,7 @@ const Footer = ({ theme, setTheme }) => {
        <motion.div
         initial={{opacity:0, y:20}}
          whileInView={{opacity:1, y:0}}
-         transition={{duration:0.5, delay:0.7}}
+         transition={{duration:0.5, delay:0.4}}
          viewport={{once:true}}
     
        className="pb-6 text-sm text-gray-500 flex justify-center sm:justify-between gap-4 flex-wrap">
